@@ -9,6 +9,7 @@ Este projeto é um formulário de cadastro de clientes desenvolvido com HTML, CS
 Os dados são armazenados em um banco de dados MySQL, garantindo que o cadastro seja salvo de forma organizada e segura.
 
 🛠 Tecnologias Utilizadas
+
 HTML → Estruturação do formulário
 CSS → Estilização do formulário
 JavaScript → Máscaras de entrada para CPF e telefone
@@ -17,15 +18,21 @@ MySQL → Armazenamento das informações cadastradas
 🚀 Funcionalidades
 
 ✅ Cadastro de clientes com informações completas
+
 ✅ Validação e formatação de CPF e telefone
+
 ✅ Armazenamento seguro no banco de dados
+
 ✅ Mensagem de sucesso ou erro após o cadastro
 
 ⚙️ Requisitos para Uso
 
 1️⃣ Ter o XAMPP ou outro servidor local instalado
+
 2️⃣ Ter o MySQL ativo
+
 3️⃣ Criar um banco de dados chamado cadastro_clientes
+
 4️⃣ Criar uma tabela clientes com os seguintes campos:
 
 sql
@@ -43,6 +50,7 @@ CREATE TABLE clientes (
     estado VARCHAR(100) NOT NULL,
     endereco VARCHAR(255) NOT NULL
 );
+
 📝 Como Usar
 
 1️⃣ Clone o repositório:
@@ -51,6 +59,7 @@ bash
 Copiar
 Editar
 git clone https://github.com/seu-usuario/site-de-servicos-de-informatica.git
+
 2️⃣ Mova os arquivos para a pasta do XAMPP:
 
 bash
@@ -72,7 +81,9 @@ http://localhost/site-de-servicos-de-informatica/formulario.php
 🔒 Segurança Implementada
 
 ✔️ Prevenção contra SQL Injection usando Prepared Statements
+
 ✔️ Máscaras para CPF e telefone garantindo formatação correta
+
 ✔️ Mensagens de erro/sucesso para melhor usabilidade
 
 📌 Autor
